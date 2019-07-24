@@ -19,8 +19,7 @@ pipeline {
                 //sh "mvn clean -f my-app"
                    //withEnv(["PATH=${tool 'maven-3.6.1'}/bin:${tool 'jdk-1.8.0_211'}/bin:${env.PATH}"]) {
               
-                     //  sh "mvn clean"
-               
+                       sh "mvn clean"
                        echo "${successMessage} PATH = ${PATH};"
                        
                    
